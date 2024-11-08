@@ -1,0 +1,130 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #0066FF;
+    /* الأزرق */
+    padding: 20px;
+    text-align: center;
+    color: #ffcc00;
+}
+
+
+/* قسم الترحيب */
+
+.hero {
+    background-color: #008080;
+    color: #000099;
+    text-align: center;
+    padding: 150px 20px;
+    background-image: url('../hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+.cta-button {
+    background-color: #0066cc;
+    color: #000099;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #004d99;
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFCC00;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#products {
+    padding: 40px;
+    text-align: center;
+}
+
+#products h2 {
+    color: #FFCC00;
+    /* الأخضر */
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.product:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.add-to-cart {
+    background-color: #0066FF;
+    /* الأزرق */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #FFCC00;
+    /* الأخضر */
+}
+
+footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding
+}
